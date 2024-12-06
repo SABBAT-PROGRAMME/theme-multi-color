@@ -112,3 +112,13 @@ button:active {
   margin: 1rem;
   border-radius: 0.5rem;
 }
+
+/* transition */
+/* Ajoutez ceci dans votre fichier CSS */
+body,
+header,
+p,
+h2,
+.choix {
+  transition: background-color 0.8s ease, color 0.8s ease;
+}
