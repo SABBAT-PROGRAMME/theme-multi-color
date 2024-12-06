@@ -78,6 +78,7 @@ function colorGreen() {
   h2.style.color = "white";
   choix.style.color = "white";
   green.style.borderColor = "white";
+  localStorage.setItem("theme", "green");
 }
 
 function colorBlue() {
@@ -111,6 +112,7 @@ function colorOrange() {
   h2.style.color = "black";
   choix.style.color = "black";
   orange.style.borderColor = "white";
+  localStorage.setItem("theme", "orange");
 }
 
 function colorPurple() {
