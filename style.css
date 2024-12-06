@@ -4,3 +4,111 @@ body {
   margin: 0;
   padding: 0;
 }
+header {
+  text-align: center;
+  background-color: #0a3981;
+  color: white;
+  padding: 1rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#btn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+/* liste des couleurs */
+
+.white {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: inset -3px -3px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.black {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: inset -3px -3px 7px 0px rgba(182, 172, 172, 0.75);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.red {
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: inset -3px -3px 7px 0px rgba(83, 78, 78, 0.75);
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: inset -3px -3px 7px 0px rgba(249, 231, 231, 0.75);
+}
+
+.green {
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.orange {
+  background-color: orange;
+  color: black;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.pink {
+  background-color: pink;
+  color: black;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
