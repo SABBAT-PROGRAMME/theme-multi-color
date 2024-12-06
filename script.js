@@ -15,6 +15,29 @@ let purple = document.querySelector(".purple");
 let pink = document.querySelector(".pink");
 let choix = document.querySelector(".choix");
 
+let theme = localStorage.getItem("theme");
+
+// localStorage choix du thème
+if (theme === "white") {
+  colorWhite();
+} else if (theme === "black") {
+  colorBlack();
+} else if (theme === "red") {
+  colorRed();
+} else if (theme === "green") {
+  colorGreen();
+} else if (theme === "blue") {
+  colorBlue();
+} else if (theme === "yellow") {
+  colorYellow();
+} else if (theme === "orange") {
+  colorOrange();
+} else if (theme === "purple") {
+  colorPurple();
+} else if (theme === "pink") {
+  colorPink();
+}
+
 // function
 
 function colorWhite() {
@@ -24,6 +47,7 @@ function colorWhite() {
   p.style.color = "black";
   h2.style.color = "black";
   choix.style.color = "black";
+  localStorage.setItem("theme", "white");
 }
 
 function colorBlack() {
@@ -33,6 +57,7 @@ function colorBlack() {
   p.style.color = "white";
   h2.style.color = "white";
   choix.style.color = "white";
+  localStorage.setItem("theme", "black");
 }
 
 function colorRed() {
@@ -42,6 +67,7 @@ function colorRed() {
   p.style.color = "white";
   h2.style.color = "white";
   choix.style.color = "white";
+  localStorage.setItem("theme", "red");
 }
 
 function colorGreen() {
@@ -63,6 +89,7 @@ function colorBlue() {
   choix.style.color = "white";
   blue.style.color = "white";
   blue.style.borderColor = "white";
+  localStorage.setItem("theme", "blue");
 }
 
 function colorYellow() {
@@ -73,6 +100,7 @@ function colorYellow() {
   h2.style.color = "black";
   choix.style.color = "black";
   yellow.style.borderColor = "white";
+  localStorage.setItem("theme", "yellow");
 }
 
 function colorOrange() {
@@ -93,6 +121,7 @@ function colorPurple() {
   h2.style.color = "white";
   choix.style.color = "white";
   purple.style.borderColor = "white";
+  localStorage.setItem("theme", "purple");
 }
 
 function colorPink() {
@@ -103,6 +132,7 @@ function colorPink() {
   h2.style.color = "black";
   choix.style.color = "black";
   pink.style.borderColor = "white";
+  localStorage.setItem("theme", "pink");
 }
 
 // events
